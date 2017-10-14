@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App1</string>
+    <string name="ingresa_persona">Ingresa el numero de personas</string>
+    <string name="aparece">Aqui Aparece</string>
+</resources>

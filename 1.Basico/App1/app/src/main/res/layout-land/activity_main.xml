@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="inter.proteco.com.app1.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/color_fondo_land"
+    >
+
+    <!--Comentario -->
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Ingresa el total de la cuenta"
+            android:layout_margin="30dp"
+            android:textSize="18sp"
+            android:id="@+id/et_cuenta"
+            android:inputType="numberDecimal"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:hint="@string/ingresa_persona"
+            android:id="@+id/et_personas"
+            />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dividir cuenta"
+        android:layout_gravity="center"
+        android:padding="50dp"
+        android:id="@+id/btn_calcular"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/aparece"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:id="@+id/tv_resultado"
+        />
+
+</LinearLayout>
