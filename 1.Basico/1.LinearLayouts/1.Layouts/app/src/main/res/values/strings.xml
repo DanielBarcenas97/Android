@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">1.Layouts</string>
+    <string name="hola_prebecarios">Hola PreBecarios</string>
+    <string name="soy_un_button">Soy un Button</string>
+    <string name="play">Play</string>
+    <string name="escribe_algo">Escribe algo</string>
+</resources>
