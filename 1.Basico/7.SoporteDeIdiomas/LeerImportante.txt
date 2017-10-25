@@ -1,0 +1,12 @@
+Soporte de idiomas:
+
+Android toma como idioma el que esta predeterminado en el sistema
+automaticamente se cambiara el idioma siempre y cuando lo tengamos definido 
+en values.
+
+Ejemplo: Si en nuestro Proyecto tenemos soporte de idiomas para Ingles y Español
+entonces dependiendo del idioma que tenga nuestro telefono es el archivo que va
+a buscar. 
+
+Si ponemos otro idioma que no este definido entonces tomara el idioma por Defecto
+que se recomienda que sea ingles.

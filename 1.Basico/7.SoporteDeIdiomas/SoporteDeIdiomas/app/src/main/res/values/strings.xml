@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Translations</string>
+    <string name="welcome" >¡ Hello Word !</string>
+    <string name="proteco">I am Proteco</string>
+</resources>
