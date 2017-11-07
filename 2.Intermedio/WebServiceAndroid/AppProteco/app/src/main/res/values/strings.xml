@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">WebService</string>
+    <string name="app_name">App Proteco</string>
     <string name="action_settings">Settings</string>
     <string name="ingresa_tu_contrase_a">ingresa tu password</string>
     <string name="ingrese_codigo_de_alumno">Ingrese Codigo de Alumno</string>
